@@ -56,6 +56,7 @@ int main(void) {
     wait();
     printf("Je termine l'enfant \n");
     kill(fils, SIGTERM);
+	return 0;
     }
     }
   return 0;
